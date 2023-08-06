@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="svg/logo.svg">
+
+    <title>Contacto</title>
+</head>
+<body>
+    <h1 class="titulo" style="text-align: center; width: auto;">CONTACTO</h1>
+
+    <div>
+        <h1 class=" titulo3" style="margin: 50px 0;">¿Como contactar con nosotros?</h1>
+        <p class="sub3" style="font-size: larger; width: auto;">¡Gracias por tu interés en contactar con nosotros! En Academia21 nos encanta recibir comentarios, preguntas y sugerencias de nuestros visitantes e interesados. Si necesitas contactarnos por cualquier motivo, por favor complete el formulario.
+             <br>  <br>
+            ¡Esperamos poder ayudarte pronto!</p>       
+   </div>
+
+
+    <div class="contact">
+        <form method="post">
+            <input id="nombre" class="textInput" type="text" placeholder="Ingrese su Nombre" autocomplete="off">
+            <input id="correo" class="textInput" type="text" placeholder="Ingrese un correo de contacto" autocomplete="off">
+            <input id="asunto" class="textInput" type="text" placeholder="Asunto" autocomplete="off">
+            <textarea class="textInput" id="cuerpo" cols="30" rows="50" placeholder="Cuerpo del Correo"></textarea>
+            <button class="textInput" id="contacto" type="submit">Enviar</button>
+        </form>
+    </div>
+
+
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+
+    <script src="js/contact.js"></script>
+</body>
+</html>

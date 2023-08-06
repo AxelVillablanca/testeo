@@ -1,0 +1,206 @@
+.box1{
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-bottom: 300px;
+}
+
+.box2{
+  display: inline-flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 900px;
+}
+
+.ilu1{
+  width: 500px;
+}
+
+.ilu2{
+  margin-top: 100px;
+  width: 600px;
+}
+
+.box2 .margen{
+  margin: 0 20px;
+}
+
+
+@media (max-width: 1450px) {
+  #prueba {
+    background-size: 850px;
+    height: 600px;
+  }
+
+  #ofertas {
+    margin: 150px 0 200px 0;
+  }
+
+  .ilu1{
+    width: 450px;
+    height: 450px;
+  }
+  
+  .ilu2{
+    margin-top: 100px;
+    width: 600px;
+  }
+}
+
+
+@media (max-width: 1200px) {
+  .ilu1{
+    width: 410px;
+    height: 410px;
+  }
+
+  .ilu2{
+    margin-top: 100px;
+    width: 550px;
+  }
+}
+
+
+
+@media (max-width: 1050px) {
+  #prueba {
+    background-size: 750px;
+    height: 550px;
+  }
+
+  #ofertas {
+    margin: 150px 0 150px 0;
+  }
+
+  .ilu1{
+    width: 380px;
+    height: 380px;
+  }
+
+  .ilu2{
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
+  }
+
+}
+
+@media (max-width: 850px) {
+  #prueba {
+    background-size: 600px;
+    height: 520px;
+  }
+
+  #ofertas {
+    margin: 70px 0 100px 0;
+  }
+
+  .box2{
+    margin-bottom: 200px;
+  }
+
+  .ilu1{
+    width: 320px;
+    height: 320px;
+    margin: 0;
+  }
+
+  .ilu2{
+    width: 25%;
+    margin-top: 15px;
+  }
+
+}
+
+@media (max-width: 650px) {
+  #prueba {
+    background-size: 570px;
+    height: 520px;
+  }
+
+  #ofertas {
+    margin: 50px 0 100px 0;
+  }
+
+  .box2{
+    margin-bottom: 100px;
+  }
+
+  .ilu1{
+    width: 250px;
+    height: 250px;
+  }
+
+  .ilu2{
+    margin-top: 15px;
+  }
+}
+
+
+@media (max-width: 500px) {
+  #prueba {
+    background-size: 410px;
+  }
+
+  #ofertas {
+    margin: 50px 0 80px 0;
+  }
+
+  .box2{
+    margin-bottom: 50px;
+  }
+
+  .ilu1{
+    width: 180px;
+    height: 180px;
+  }
+
+  .ilu2{
+    width: 20%;
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 400px) {
+  #prueba {
+    background-size: 360px;
+    background-position: bottom;
+    height: 320px;
+  }
+
+  .sub3 {
+    width: 340px;
+    margin: 5px;
+
+  }
+
+  .ilu1{
+    width: 180px;
+    height: 180px;
+  }
+
+  .ilu2{
+    width: 25%;
+    margin-top: 15px;
+  }
+
+
+}
+
+
+@media (max-width: 340px) {
+  #prueba {
+    background-size: 360px;
+    background-position: bottom;
+    height: 320px;
+  }
+
+  .sub3 {
+    width: 300px;
+    margin: 5px;
+  }
+
+
+}
