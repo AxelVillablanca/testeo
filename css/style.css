@@ -481,7 +481,7 @@ textarea.textInput{
   width: 350px;
   height: 10px;
   border-radius: 20px;
-  transform: translate(0, 5600%);
+  transform: translate(0, 560px);
 }
 
 .opciones {
@@ -731,7 +731,7 @@ footer p{
     width: 280px;
     height: 10px;
     border-radius: 20px;
-    transform: translate(0, 3800%);
+    transform: translate(0, 380px);
   }
 
   .card a{
@@ -858,7 +858,7 @@ footer p{
   .divisor {
     width: 280px;
     height: 8px;
-    transform: translate(0, 5600%);
+    transform: translate(0, 445px);
   }
 
   .opciones .card {
@@ -1005,14 +1005,14 @@ footer p{
     width: 220px;
     height: 7px;
     border-radius: 20px;
-    transform: translate(0, 6950%);
+    transform: translate(0, 485px);
   }
 
   .card a{
     width: 180px;
     top: 0%;
     left: 0%;
-    transform: translate(30%, -10%);;
+    transform: translate(32%, -10%);;
   }
 
   /******* EXTRA *******/
@@ -1218,7 +1218,7 @@ footer p{
     width: 200px;
     height: 6px;
     border-radius: 20px;
-    transform: translate(0, 6900%);
+    transform: translate(0, 415px);
   }
 
   .card a{
@@ -1415,14 +1415,14 @@ footer p{
     width: 175px;
     height: 5px;
     border-radius: 20px;
-    transform: translate(0, 7800%);
+    transform: translate(0, 390px);
   }
 
   .card a{
     width: 180px;
     top: 0%;
     left: 0%;
-    transform: translate(15%, -15%);;
+    transform: translate(20%, -5%);;
   }
 
   .card-logo{
@@ -1605,7 +1605,7 @@ footer p{
   .divisor {
     width: 140px;
     border-radius: 20px;
-    transform: translate(0, 7600%);
+    transform: translate(0, 380px);
   }
 
   .card a{
@@ -1760,7 +1760,7 @@ footer p{
 
   .divisor {
   
-    transform: translate(0, 8200%);
+    transform: translate(0, 410px);
   }
 
   /******* EXTRA *******/
