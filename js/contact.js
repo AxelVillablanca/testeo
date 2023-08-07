@@ -22,6 +22,7 @@ boton.addEventListener('click', function(e){
         }).then(
             function(message) {
                 alert(message);
+                alert("Gracias por comunicarte con Academia21, nos comunicaremos a la brevedad");
                 // Limpiar los campos después del envío exitoso
                 document.getElementById('nombre').value = '';
                 document.getElementById('correo').value = '';
