@@ -470,19 +470,9 @@ textarea.textInput{
   margin: auto;
 }
 
-.divisor {
-  background: rgb(255, 152, 49);
-  background: linear-gradient(
-    20deg,
-    rgba(255, 152, 49, 1) 40%,
-    rgba(237, 30, 121, 1) 85%
-  );
-  position: absolute;
-  width: 350px;
-  height: 10px;
-  border-radius: 20px;
-  transform: translate(0, 560px);
-}
+
+
+
 
 .opciones {
   display: flex;
@@ -727,13 +717,6 @@ footer p{
     padding: 5%;
   }
 
-  .divisor {
-    width: 280px;
-    height: 10px;
-    border-radius: 20px;
-    transform: translate(0, 380px);
-  }
-
   .card a{
     width: 180px;
     top: 0%;
@@ -855,11 +838,7 @@ footer p{
     height: 93.5%;
   }
 
-  .divisor {
-    width: 280px;
-    height: 8px;
-    transform: translate(0, 445px);
-  }
+
 
   .opciones .card {
     margin: 100px 50px;
@@ -1001,12 +980,7 @@ footer p{
     padding: 5%;
   }
 
-  .divisor {
-    width: 220px;
-    height: 7px;
-    border-radius: 20px;
-    transform: translate(0, 485px);
-  }
+
 
   .card a{
     width: 180px;
@@ -1026,6 +1000,41 @@ footer p{
   .boton2{
     margin-top: 30px;
   }
+
+
+  input,textarea, #contacto{
+    font-size: 15px;
+  }
+  
+  .contact{
+    width: fit-content;
+    margin: 100px auto;
+    background-color: #f7f7f7;
+    border-radius: 15px;
+  }
+  
+  .textInput{
+      display: block;
+      height: 35px;
+      width: 500px;
+      margin: 12px 25px;
+      border-radius: 10px;
+      border: 2px #ed1f79 solid;
+      outline: none;
+      padding: 2px 5px;
+  }
+  
+  textarea.textInput{
+    height: 300px;
+  }
+  
+  #contacto{
+    width: 50%;
+    margin: 20px auto;
+    font-size: 18px;
+    transition: .5s ease;
+  }
+
 
   /******* SOCIAL *******/
 
@@ -1214,12 +1223,7 @@ footer p{
 
 
 
-  .divisor {
-    width: 200px;
-    height: 6px;
-    border-radius: 20px;
-    transform: translate(0, 415px);
-  }
+
 
   .card a{
     width: 180px;
@@ -1252,6 +1256,35 @@ footer p{
     height: 800px;
   }
   
+
+  
+  .contact{
+    width: fit-content;
+    margin: 100px auto;
+    background-color: #f7f7f7;
+    border-radius: 15px;
+  }
+  
+  .textInput{
+      height: 35px;
+      width: 440px;
+      margin: 12px 25px;
+      border-radius: 10px;
+      border: 2px #ed1f79 solid;
+      outline: none;
+      padding: 2px 5px;
+  }
+  
+  textarea.textInput{
+    height: 300px;
+  }
+  
+  #contacto{
+    width: 50%;
+    margin: 20px auto;
+    font-size: 18px;
+    transition: .5s ease;
+  }
 
   /******* SOCIAL *******/
 
@@ -1411,12 +1444,7 @@ footer p{
   }
   
 
-  .divisor {
-    width: 175px;
-    height: 5px;
-    border-radius: 20px;
-    transform: translate(0, 390px);
-  }
+
 
   .card a{
     width: 180px;
@@ -1450,6 +1478,40 @@ footer p{
   .fondoder{
     width: 500px;
     height: 800px;
+  }
+
+
+  input,textarea, #contacto{
+    font-size: 14px;
+  }
+  
+  .contact{
+    width: fit-content;
+    margin: 100px auto;
+    background-color: #f7f7f7;
+    border-radius: 15px;
+  }
+  
+  .textInput{
+      display: block;
+      height: 35px;
+      width: 350px;
+      margin: 12px 25px;
+      border-radius: 10px;
+      border: 2px #ed1f79 solid;
+      outline: none;
+      padding: 2px 5px;
+  }
+  
+  textarea.textInput{
+    height: 300px;
+  }
+  
+  #contacto{
+    width: 50%;
+    margin: 20px auto;
+    font-size: 16px;
+    transition: .5s ease;
   }
   
 
@@ -1602,11 +1664,6 @@ footer p{
     padding: 5%;
   }
 
-  .divisor {
-    width: 140px;
-    border-radius: 20px;
-    transform: translate(0, 380px);
-  }
 
   .card a{
     width: 180px;
@@ -1645,6 +1702,26 @@ footer p{
     height: 800px;
   }
   
+  input,textarea, #contacto{
+    font-size: 13px;
+  }
+  
+  
+  .textInput{
+      height: 40px;
+      width: 300px;
+      margin: 12px 15px;
+      border-radius: 10px;
+      border: 2px #ed1f79 solid;
+  }
+  
+  textarea.textInput{
+    height: 300px;
+  }
+  
+  #contacto{
+    font-size: 15px;
+  }
 
   /******* SOCIAL *******/
 
@@ -1758,10 +1835,7 @@ footer p{
   }
 
 
-  .divisor {
-  
-    transform: translate(0, 410px);
-  }
+
 
   /******* EXTRA *******/
 
@@ -1778,6 +1852,17 @@ footer p{
     height: 800px;
   }
   
+
+  .textInput{
+    height: 40px;
+    width: 240px;
+    margin: 12px 15px;
+    border-radius: 10px;
+}
+
+textarea.textInput{
+  height: 280px;
+}
 
   /******* SOCIAL *******/
 
